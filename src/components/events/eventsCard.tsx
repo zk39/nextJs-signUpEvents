@@ -23,7 +23,7 @@ const SingleEventsCard = ({ data }) => {
       const result = await response.json();
       alert(result.message);
 
-      if (!response) throw new Error(`Error : ${response.status}`);
+      if (!response) throw new Error(`Error : ${response}`);
       console.log("POST", data);
     } catch (error) {
       console.log("Error: ", e);

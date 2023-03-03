@@ -1,6 +1,5 @@
 import EventCategoryPage from "@/components/events/catEvent";
-import Image from "next/image";
-import Link from "next/link";
+
 const EventPerCityPage = ({ data,pageName }) => {
   return (
     <EventCategoryPage data={data} pageName={pageName}/>
