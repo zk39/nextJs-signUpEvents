@@ -86,13 +86,9 @@ body {
 }
 
 body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  /* color: rgb(var(--foreground-rgb));
+  //background-color: rgb(56 87 92 / 8%); 
+  background: linear-gradient(76deg, black, transparent);;*/
 }
 
 a {
