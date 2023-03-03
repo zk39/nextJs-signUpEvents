@@ -7,7 +7,7 @@ function buildPath() {
 
 function extractData(filePath) {
   const jsonData = fs.readFileSync(filePath);
-  const data = JSON.parse(jsonData);
+  const data = JSON.parse(jsonData.toString());
   return data;
 }
 
